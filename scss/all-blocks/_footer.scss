@@ -1,0 +1,23 @@
+.footer{
+    background-color: #2C343E;
+    padding: 15px 15px;
+
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+    }
+    
+    &__link{
+        color: #83888F;
+        text-decoration: none;
+        padding-left: 30px;
+        font-family: "Barlow"
+    }
+    
+    &__link:hover{
+        color: #FEFCF7;
+        text-decoration :overline
+    }
+}
